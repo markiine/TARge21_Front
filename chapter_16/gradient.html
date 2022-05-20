@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style type="text/css">
+        #gradient {
+            /* fallback color*/
+            background-color: #66cccc;
+
+            /*background-image: url("images/fallback-image.png");*/
+            /* Firefox */
+
+            background-image: -moz-linear-gradient(#336666, #66cccc);
+            /* Safari */
+
+            background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#66cccc), to(#336666));
+            /* Safari */
+            background-image: -webkit-linear-gradient(#336666, #66cccc);
+            /* Opera */
+
+            background-image: -o-linear-gradient(#336666, #66cccc);
+            height: 150px;
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="gradient">HALLELUUUJAAAH</div>
+</body>
+</html>
